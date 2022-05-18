@@ -3,11 +3,14 @@
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
 import HelloWorld from './components/HelloWorld.vue'
 import NavBar from './components/NavBar.vue'
+import BackgroundUI from './components/BackgroundUI.vue';
 </script>
 
 <template>
   <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
-  <NavBar />
+   <NavBar />
+  <BackgroundUI />
+ 
 </template>
 
 <style>
