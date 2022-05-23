@@ -4,12 +4,21 @@
 import HelloWorld from './components/HelloWorld.vue'
 import NavBar from './components/NavBar.vue'
 import BackgroundUI from './components/BackgroundUI.vue';
+
+
 </script>
 
 <template>
   <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
    <NavBar />
-  <BackgroundUI />
+   <router-link to = "/">
+    Home
+   </router-link>
+    <router-link to = "/">
+    About
+   </router-link>
+  <router-view></router-view>
+
  
 </template>
 

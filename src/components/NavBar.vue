@@ -10,6 +10,5 @@ import { ref } from 'vue '
        <router-link to="/HomePage" class ="mt-2 mb-2 text-base"> Home </router-link> 
       <router-link to="/AboutPage" class ="mt-2 mb-2 text-base" > About </router-link> 
    </div>
-
-   <router-view></router-view>
+   <router-view/> 
 </template>
