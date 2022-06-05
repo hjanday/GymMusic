@@ -11,12 +11,7 @@ import BackgroundUI from './components/BackgroundUI.vue';
 <template>
   <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
    <NavBar />
-   <router-link to = "/">
-    Home
-   </router-link>
-    <router-link to = "/">
-    About
-   </router-link>
+
   <router-view></router-view>
 
  
